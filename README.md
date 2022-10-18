@@ -186,11 +186,10 @@ Query `UsedCars` Table: `select * from UsedCars`
 
 Query `FuelType` Table: `select * from FuelType`
 
-![FuelType](https://user-images.githubusercontent.com/47898196/196303786-3868c117-90dc-4ece-b321-e95256bdbc46.png)
-
+![image](https://user-images.githubusercontent.com/47898196/196305509-4a0d0934-3ba4-48ed-a85b-f92c2cce0f0f.png)
 
 Joining two tables:
-```
+```sql
 select c.car_model, c.year_of_manufacture, c.price, f.fuel_type 
 from UsedCars c
 join FuelType f 
@@ -199,4 +198,5 @@ on c.fuel_id = f.id
 ![join](https://user-images.githubusercontent.com/47898196/196303809-75e064fc-69f0-4d6c-8d58-ce7d97df280d.png)
 
 Log file
+
 ![image](https://user-images.githubusercontent.com/47898196/196305157-18172f1c-5d0c-41be-8b20-7c8b388a7050.png)
