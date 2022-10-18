@@ -180,11 +180,17 @@ Calling `ETL(src_path, log_path, server, database, username, password)`
 
 ![image](https://user-images.githubusercontent.com/47898196/196304243-01ba7e5e-34f9-4e97-8a42-e3cfbb80e21d.png)
 
-Query `UsedCars` Table: `select * from UsedCars`
+Query `UsedCars` Table: 
+```sql
+select * from UsedCars
+```
 
 ![UsedCars](https://user-images.githubusercontent.com/47898196/196303713-34c0b277-6373-4d55-a193-034e6e00d534.png)
 
-Query `FuelType` Table: `select * from FuelType`
+Query `FuelType` Table: 
+```sql
+select * from FuelType
+```
 
 ![FuelType](https://user-images.githubusercontent.com/47898196/196305745-2471a24b-c5e3-40e9-ae08-8be603e4fa86.png)
 
